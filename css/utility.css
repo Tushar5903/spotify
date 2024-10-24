@@ -1,0 +1,52 @@
+/*  css code the most common utility code related to the project */
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-color {
+    background-color: black;
+    color: white;
+}
+
+.reverce {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.playbutton {
+    width: 28px;
+    height: 28px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;               
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;    
+    border-radius: 10px;        
+    border: 2px solid #333;    
+}
+
+::-webkit-scrollbar-track {
+    background: #222;          
+    border-radius: 10px;
+}
